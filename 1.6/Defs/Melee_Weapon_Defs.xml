@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Melee Weapons __________-->
+
+    <!--_____ Blunt Weapons _____-->
+
+    <!-- Baseball Bat -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_Bat</defName>
+        <label>Baseball Bat</label>
+        <description>A classic wooden baseball bat, repurposed as a simple but effective melee weapon. While not designed for combat, a solid swing can break bones and deter attackers.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Bat</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <WoodLog>30</WoodLog>
+        </costList>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>1.2</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>500</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>bat</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Aluminum Bat -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_Bat_Aluminum</defName>
+        <label>Aluminum Bat</label>
+        <description>A lightweight aluminum baseball bat. More durable than its wooden counterpart and capable of delivering faster, harder swings. A favorite among wasteland brawlers.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Bat_Aluminum</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>25</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>1.0</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>501</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.9</cooldownTime>
+            </li>
+            <li>
+                <label>bat</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.9</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Spiked Bat -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Bat_Spiked</defName>
+        <label>Spiked Bat</label>
+        <description>A baseball bat with nails and metal spikes driven through the head. Turns a simple blunt weapon into something far more vicious, capable of tearing flesh as well as breaking bones.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Bat_Spiked</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <FCP_Bat>1</FCP_Bat>
+            <Steel>5</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>4500</WorkToMake>
+            <Mass>1.5</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>502</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>spiked head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Stab</li>
+                    <li>Blunt</li>
+                </capacities>
+                <power>17</power>
+                <cooldownTime>2.1</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Saw Bat -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Bat_Saw</defName>
+        <label>Saw Bat</label>
+        <description>A baseball bat modified with circular saw blades attached to its head. A brutal and terrifying weapon that can slice through flesh and armor alike.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Bat_Saw</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <FCP_Bat>1</FCP_Bat>
+            <Steel>15</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>2.0</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>503</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>saw blades</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>19</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Spiked Board -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Board_Spiked</defName>
+        <label>Spiked Board</label>
+        <description>A simple wooden board with nails driven through it. Crude but effective, this makeshift weapon is common among raiders and desperate survivors.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Board_Spiked</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Neolithic</techLevel>
+        <costList>
+            <WoodLog>15</WoodLog>
+            <Steel>3</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>2000</WorkToMake>
+            <Mass>1.3</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>1</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>504</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>board</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>nails</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Pool Cue -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_Pool_Cue</defName>
+        <label>Pool Cue</label>
+        <description>A long wooden pool cue. While fragile compared to dedicated weapons, its reach and ability to deliver quick pokes make it useful in a pinch.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Pool_Cue</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <WoodLog>20</WoodLog>
+        </costList>
+        <statBases>
+            <WorkToMake>2000</WorkToMake>
+            <Mass>0.6</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>505</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>tip</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+            <li>
+                <label>shaft</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>1.7</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Rebar Club -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_Rebar_Club</defName>
+        <label>Rebar Club</label>
+        <description>A heavy length of construction rebar wrapped with tape for a grip. Simple, brutal, and readily available in the ruins of the old world.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Rebar_Club</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>20</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>2.0</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>1</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>506</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2.1</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Rolling Pin -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_Rolling_Pin</defName>
+        <label>Rolling Pin</label>
+        <description>A wooden rolling pin typically used for baking. In the wasteland, even kitchen utensils can become weapons. Light and fast, if not particularly deadly.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Rolling_Pin</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Neolithic</techLevel>
+        <costList>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <statBases>
+            <WorkToMake>1500</WorkToMake>
+            <Mass>0.5</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>1</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>507</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>1.4</cooldownTime>
+            </li>
+            <li>
+                <label>roller</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.5</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Scrap Pipe -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_Scrap_Pipe</defName>
+        <label>Scrap Pipe</label>
+        <description>A length of metal pipe scavenged from old plumbing or industrial ruins. Heavy and durable, making for a reliable bludgeoning weapon.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Scrap_Pipe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>15</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>2000</WorkToMake>
+            <Mass>1.5</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>1</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>508</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>pipe end</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>1.9</cooldownTime>
+            </li>
+            <li>
+                <label>pipe</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 9 Iron -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_9_Iron</defName>
+        <label>9 Iron</label>
+        <description>A pre-war golf club, the 9 iron. The weighted head and long shaft make for surprisingly effective swings. Fore!</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_9_Iron</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>20</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>0.8</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>509</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>1.7</cooldownTime>
+            </li>
+            <li>
+                <label>club head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>1.8</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Sledgehammer -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_Sledgehammer</defName>
+        <label>Sledgehammer</label>
+        <description>A heavy sledgehammer designed for demolition work. Slow to swing, but delivers devastating blows that can crush bone and dent armor.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Sledgehammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>40</Steel>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <statBases>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>4.5</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>510</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Heavy</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>22</power>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Super Sledge -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>FCP_Super_Sledge</defName>
+        <label>Super Sledge</label>
+        <description>A massive pre-war military sledgehammer enhanced with kinetic energy storage technology. Each swing releases tremendous force, capable of sending enemies flying and crushing power armor. A true wasteland legend.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Super_Sledge</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Spacer</techLevel>
+        <costList>
+            <Steel>60</Steel>
+            <Plasteel>20</Plasteel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>6.0</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>511</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Heavy</li>
+            <li>FCP_Melee_Advanced</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2.4</cooldownTime>
+            </li>
+            <li>
+                <label>kinetic head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>32</power>
+                <cooldownTime>2.8</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--_____ Sharp Weapons _____-->
+
+    <!-- Meat Cleaver -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Meat_Cleaver</defName>
+        <label>Meat Cleaver</label>
+        <description>A heavy butcher's cleaver designed for cutting through meat and bone. In the wasteland, it serves just as well against human targets.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Meat_Cleaver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>25</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>3500</WorkToMake>
+            <Mass>0.9</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>520</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>1.8</cooldownTime>
+            </li>
+            <li>
+                <label>blade</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>1.9</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Scrap Axe -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Scrap_Axe</defName>
+        <label>Scrap Axe</label>
+        <description>An improvised axe made from scrap metal and a wooden handle. Rough but effective for both chopping wood and splitting skulls.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Scrap_Axe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>20</Steel>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <statBases>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>1.8</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>521</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>18</power>
+                <cooldownTime>2.1</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Scrap Machete -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Scrap_Machete</defName>
+        <label>Scrap Machete</label>
+        <description>A crude machete fashioned from scrap metal. The blade is rough but sharp enough to hack through flesh and vegetation alike.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Scrap_Machete</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>20</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>3500</WorkToMake>
+            <Mass>1.0</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>522</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>1.8</cooldownTime>
+            </li>
+            <li>
+                <label>blade</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>17</power>
+                <cooldownTime>1.9</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Bumper Sword -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Bumper_Sword</defName>
+        <label>Bumper Sword</label>
+        <description>A massive blade forged from a pre-war car bumper. Heavy and unwieldy, but capable of cleaving through enemies with tremendous force. A favorite of super mutants and other hulking wastelanders.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Bumber_Sword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>60</Steel>
+        </costList>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <Mass>5.0</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Makeshift_Weapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>523</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Heavy</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2.4</cooldownTime>
+            </li>
+            <li>
+                <label>blade</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Chainsaw -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Chainsaw</defName>
+        <label>Chainsaw</label>
+        <description>A pre-war chainsaw repurposed for combat. The roaring engine and spinning chain make for a terrifying and deadly weapon, capable of tearing through flesh and light armor.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Chainsaw</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Chemfuel>20</Chemfuel>
+        </costList>
+        <statBases>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>3.5</Mass>
+        </statBases>
+        <equippedAngleOffset>-45</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>524</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Heavy</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+            <li>
+                <label>chain</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>24</power>
+                <cooldownTime>2.3</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Mr. Handy Buzz Blade -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Mr_Handy_Buzz_Blade</defName>
+        <label>Mr. Handy Buzz Blade</label>
+        <description>A circular saw blade salvaged from a Mr. Handy robot, modified with a grip for handheld use. The spinning blade can slice through almost anything with ease.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Mr_Handy_Buzz_Blade</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <Mass>1.5</Mass>
+        </statBases>
+        <equippedAngleOffset>-45</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>525</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Advanced</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.8</cooldownTime>
+            </li>
+            <li>
+                <label>blade</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>20</power>
+                <cooldownTime>1.9</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Ripper -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Ripper</defName>
+        <label>Ripper</label>
+        <description>A compact handheld chainsaw designed by the U.S. military for close-quarters combat. The small, fast-spinning chain can rip through flesh and armor with horrifying efficiency.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Ripper</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Spacer</techLevel>
+        <costList>
+            <Steel>35</Steel>
+            <Plasteel>10</Plasteel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>1.8</Mass>
+        </statBases>
+        <equippedAngleOffset>-45</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>526</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Advanced</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>1.6</cooldownTime>
+            </li>
+            <li>
+                <label>chain</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>22</power>
+                <cooldownTime>1.7</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Shishkebab -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>FCP_Shishkebab</defName>
+        <label>Shishkebab</label>
+        <description>A legendary wasteland weapon - a makeshift flaming sword constructed from a motorcycle gas tank, pilot light, and lawnmower blade. The fuel-fed flames coat the blade, allowing it to slice and burn enemies simultaneously.</description>
+        <graphicData>
+            <texPath>Melee_Weapons/FCP_Shishkebab</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Chemfuel>30</Chemfuel>
+        </costList>
+        <statBases>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>2.5</Mass>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+            <displayPriority>527</displayPriority>
+        </recipeMaker>
+        <weaponTags>
+            <li>FCP_Melee_Advanced</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>flaming blade</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>21</power>
+                <cooldownTime>2.1</cooldownTime>
+                <extraMeleeDamages>
+                    <li>
+                        <def>Flame</def>
+                        <amount>8</amount>
+                    </li>
+                </extraMeleeDamages>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
