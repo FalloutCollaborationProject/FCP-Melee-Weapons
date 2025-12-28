@@ -140,7 +140,7 @@
         <uiIconScale>1.2</uiIconScale>
         <techLevel>Industrial</techLevel>
         <costList>
-            <FCP_Bat>1</FCP_Bat>
+            <FCP_Melee_Bat>1</FCP_Melee_Bat>
             <Steel>5</Steel>
         </costList>
         <statBases>
@@ -203,7 +203,7 @@
         <uiIconScale>1.2</uiIconScale>
         <techLevel>Industrial</techLevel>
         <costList>
-            <FCP_Bat>1</FCP_Bat>
+            <FCP_Melee_Bat>1</FCP_Melee_Bat>
             <Steel>15</Steel>
         </costList>
         <statBases>
