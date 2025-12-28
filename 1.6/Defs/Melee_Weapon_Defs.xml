@@ -8,7 +8,7 @@
     <!-- Baseball Bat -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_Bat</defName>
+        <defName>FCP_Melee_Bat</defName>
         <label>Baseball Bat</label>
         <description>A classic wooden baseball bat, repurposed as a simple but effective melee weapon. While not designed for combat, a solid swing can break bones and deter attackers.</description>
         <graphicData>
@@ -69,7 +69,7 @@
     <!-- Aluminum Bat -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_Bat_Aluminum</defName>
+        <defName>FCP_Melee_Bat_Aluminum</defName>
         <label>Aluminum Bat</label>
         <description>A lightweight aluminum baseball bat. More durable than its wooden counterpart and capable of delivering faster, harder swings. A favorite among wasteland brawlers.</description>
         <graphicData>
@@ -130,7 +130,7 @@
     <!-- Spiked Bat -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Bat_Spiked</defName>
+        <defName>FCP_Melee_Bat_Spiked</defName>
         <label>Spiked Bat</label>
         <description>A baseball bat with nails and metal spikes driven through the head. Turns a simple blunt weapon into something far more vicious, capable of tearing flesh as well as breaking bones.</description>
         <graphicData>
@@ -193,7 +193,7 @@
     <!-- Saw Bat -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Bat_Saw</defName>
+        <defName>FCP_Melee_Bat_Saw</defName>
         <label>Saw Bat</label>
         <description>A baseball bat modified with circular saw blades attached to its head. A brutal and terrifying weapon that can slice through flesh and armor alike.</description>
         <graphicData>
@@ -255,7 +255,7 @@
     <!-- Spiked Board -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Board_Spiked</defName>
+        <defName>FCP_Melee_Board_Spiked</defName>
         <label>Spiked Board</label>
         <description>A simple wooden board with nails driven through it. Crude but effective, this makeshift weapon is common among raiders and desperate survivors.</description>
         <graphicData>
@@ -317,7 +317,7 @@
     <!-- Pool Cue -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_Pool_Cue</defName>
+        <defName>FCP_Melee_Pool_Cue</defName>
         <label>Pool Cue</label>
         <description>A long wooden pool cue. While fragile compared to dedicated weapons, its reach and ability to deliver quick pokes make it useful in a pinch.</description>
         <graphicData>
@@ -378,7 +378,7 @@
     <!-- Rebar Club -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_Rebar_Club</defName>
+        <defName>FCP_Melee_Rebar_Club</defName>
         <label>Rebar Club</label>
         <description>A heavy length of construction rebar wrapped with tape for a grip. Simple, brutal, and readily available in the ruins of the old world.</description>
         <graphicData>
@@ -439,7 +439,7 @@
     <!-- Rolling Pin -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_Rolling_Pin</defName>
+        <defName>FCP_Melee_Rolling_Pin</defName>
         <label>Rolling Pin</label>
         <description>A wooden rolling pin typically used for baking. In the wasteland, even kitchen utensils can become weapons. Light and fast, if not particularly deadly.</description>
         <graphicData>
@@ -500,7 +500,7 @@
     <!-- Scrap Pipe -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_Scrap_Pipe</defName>
+        <defName>FCP_Melee_Scrap_Pipe</defName>
         <label>Scrap Pipe</label>
         <description>A length of metal pipe scavenged from old plumbing or industrial ruins. Heavy and durable, making for a reliable bludgeoning weapon.</description>
         <graphicData>
@@ -561,7 +561,7 @@
     <!-- 9 Iron -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_9_Iron</defName>
+        <defName>FCP_Melee_9_Iron</defName>
         <label>9 Iron</label>
         <description>A pre-war golf club, the 9 iron. The weighted head and long shaft make for surprisingly effective swings. Fore!</description>
         <graphicData>
@@ -622,7 +622,7 @@
     <!-- Sledgehammer -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_Sledgehammer</defName>
+        <defName>FCP_Melee_Sledgehammer</defName>
         <label>Sledgehammer</label>
         <description>A heavy sledgehammer designed for demolition work. Slow to swing, but delivers devastating blows that can crush bone and dent armor.</description>
         <graphicData>
@@ -684,7 +684,7 @@
     <!-- Super Sledge -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>FCP_Super_Sledge</defName>
+        <defName>FCP_Melee_Super_Sledge</defName>
         <label>Super Sledge</label>
         <description>A massive pre-war military sledgehammer enhanced with kinetic energy storage technology. Each swing releases tremendous force, capable of sending enemies flying and crushing power armor. A true wasteland legend.</description>
         <graphicData>
@@ -750,7 +750,7 @@
     <!-- Meat Cleaver -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Meat_Cleaver</defName>
+        <defName>FCP_Melee_Meat_Cleaver</defName>
         <label>Meat Cleaver</label>
         <description>A heavy butcher's cleaver designed for cutting through meat and bone. In the wasteland, it serves just as well against human targets.</description>
         <graphicData>
@@ -811,7 +811,7 @@
     <!-- Scrap Axe -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Scrap_Axe</defName>
+        <defName>FCP_Melee_Scrap_Axe</defName>
         <label>Scrap Axe</label>
         <description>An improvised axe made from scrap metal and a wooden handle. Rough but effective for both chopping wood and splitting skulls.</description>
         <graphicData>
@@ -873,7 +873,7 @@
     <!-- Scrap Machete -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Scrap_Machete</defName>
+        <defName>FCP_Melee_Scrap_Machete</defName>
         <label>Scrap Machete</label>
         <description>A crude machete fashioned from scrap metal. The blade is rough but sharp enough to hack through flesh and vegetation alike.</description>
         <graphicData>
@@ -934,7 +934,7 @@
     <!-- Bumper Sword -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Bumper_Sword</defName>
+        <defName>FCP_Melee_Bumper_Sword</defName>
         <label>Bumper Sword</label>
         <description>A massive blade forged from a pre-war car bumper. Heavy and unwieldy, but capable of cleaving through enemies with tremendous force. A favorite of super mutants and other hulking wastelanders.</description>
         <graphicData>
@@ -995,7 +995,7 @@
     <!-- Chainsaw -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Chainsaw</defName>
+        <defName>FCP_Melee_Chainsaw</defName>
         <label>Chainsaw</label>
         <description>A pre-war chainsaw repurposed for combat. The roaring engine and spinning chain make for a terrifying and deadly weapon, capable of tearing through flesh and light armor.</description>
         <graphicData>
@@ -1058,7 +1058,7 @@
     <!-- Mr. Handy Buzz Blade -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Mr_Handy_Buzz_Blade</defName>
+        <defName>FCP_Melee_Mr_Handy_Buzz_Blade</defName>
         <label>Mr. Handy Buzz Blade</label>
         <description>A circular saw blade salvaged from a Mr. Handy robot, modified with a grip for handheld use. The spinning blade can slice through almost anything with ease.</description>
         <graphicData>
@@ -1120,7 +1120,7 @@
     <!-- Ripper -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Ripper</defName>
+        <defName>FCP_Melee_Ripper</defName>
         <label>Ripper</label>
         <description>A compact handheld chainsaw designed by the U.S. military for close-quarters combat. The small, fast-spinning chain can rip through flesh and armor with horrifying efficiency.</description>
         <graphicData>
@@ -1183,7 +1183,7 @@
     <!-- Shishkebab -->
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>FCP_Shishkebab</defName>
+        <defName>FCP_Melee_Shishkebab</defName>
         <label>Shishkebab</label>
         <description>A legendary wasteland weapon - a makeshift flaming sword constructed from a motorcycle gas tank, pilot light, and lawnmower blade. The fuel-fed flames coat the blade, allowing it to slice and burn enemies simultaneously.</description>
         <graphicData>
