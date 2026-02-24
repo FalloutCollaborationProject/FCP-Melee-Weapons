@@ -678,6 +678,9 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
             <displayPriority>511</displayPriority>
         </recipeMaker>
         <weaponTags>
@@ -974,6 +977,9 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
             <displayPriority>524</displayPriority>
         </recipeMaker>
         <weaponTags>
@@ -1033,6 +1039,9 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
             <displayPriority>525</displayPriority>
         </recipeMaker>
         <weaponTags>
@@ -1094,6 +1103,9 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
             <displayPriority>526</displayPriority>
         </recipeMaker>
         <weaponTags>
@@ -1154,6 +1166,9 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
             <displayPriority>527</displayPriority>
         </recipeMaker>
         <weaponTags>
